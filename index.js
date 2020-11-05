@@ -34,10 +34,12 @@
                                 <img src="${element.img}" alt="" />
                                 <div class="card-body">
                                 <p class="card-text">
-                                    This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit
-                                    longer.
+                                    ${element.title}
                                 </p>
+                                <p class="card-text">
+                                ${element.category}
+                                </p>
+                                <h4>${element.price} $</h4>
                                 <div
                                     class="d-flex justify-content-between align-items-center"
                                 >
@@ -57,6 +59,7 @@
                                         Skip
                                     </button>
                                     </div>
+                                    
                                     <small class="text-muted">${element.asin}</small>
                                 </div>
                                 </div>
